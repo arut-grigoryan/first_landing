@@ -1,0 +1,33 @@
+.header {
+    max-width: 1440px;
+    background-color: #131313;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+.header__company-name {
+    color: #E3B873;
+    margin-right: auto;
+    margin-left: 5%;
+}
+.main-nav {
+    display: flex;
+}
+.main-nav__nav-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
+}
+.header__tel {
+    color: #E3B873;
+    margin-left: auto;
+}
+.header__request-call-button{
+    width: 160px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 5%;
+}
