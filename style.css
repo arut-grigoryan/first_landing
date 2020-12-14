@@ -5,29 +5,47 @@
     display: flex;
     align-items: center;
     font-size: 11px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .header__company-name {
     color: #E3B873;
     margin-right: auto;
     margin-left: 5%;
 }
+.header__nav{
+    flex-grow: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .main-nav {
     display: flex;
+    justify-content: space-around;
 }
 .main-nav__nav-item {
     color: white;
     text-decoration: none;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: inline-block;
+}
+.main-nav__nav-item_current {
+    color: #E3B873;
 }
 .header__tel {
     color: #E3B873;
     margin-left: auto;
+    margin-right: 3%;
 }
 .header__request-call-button{
     width: 160px;
     height: 40px;
     margin-left: auto;
     margin-right: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    background-color: #E3B873;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    border-width: 0px;
 }
