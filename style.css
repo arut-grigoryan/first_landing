@@ -1,11 +1,16 @@
-.header {
+body {
     max-width: 1440px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+    min-width: 370px;
+}
+
+.header {
     background-color: #131313;
     height: 80px;
     display: flex;
     align-items: center;
     font-size: 11px;
-    font-family: 'Nunito Sans', sans-serif;
 }
 
 .header__company-name {
@@ -55,4 +60,68 @@
     font-size: 11px;
     border-radius: 2px;
     border-width: 0px;
+}
+
+.offer {
+    background-image: url(./images/image\ 4.3.jpg);
+    background-repeat: no-repeat;
+    height: 707px;
+    background-position: center center;
+}
+
+.offer__dark-background {
+    background-color: rgba(19, 19, 19, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.offer__form {
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+
+.offer__h1 {
+    margin-top: 0px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    max-width: 600px;
+}
+
+.offer__city {
+    color: #E3B873;
+}
+
+.offer__p {
+    font-size: 22px;
+    max-width: 500px;
+}
+
+.offer__first-option {
+    width: 30%;
+    max-width: 210px;
+    height: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    background-color: #E3B873;
+    color: white;
+    font-size: 11px;
+    border-radius: 2px;
+    border-width: 0px;
+    margin-right: auto;
+}
+
+.offer__second-option {
+    width: 30%;
+    max-width: 210px;
+    height: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    font-size: 11px;
+    border-radius: 2px;
+    margin-left: 1%;
 }
