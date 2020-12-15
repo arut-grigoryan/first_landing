@@ -7,21 +7,25 @@
     font-size: 11px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .header__company-name {
     color: #E3B873;
     margin-right: auto;
     margin-left: 5%;
 }
-.header__nav{
+
+.header__nav {
     margin-left: 2%;
     margin-right: 2%;
     width: 45%;
 }
+
 .main-nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .main-nav__nav-item {
     color: white;
     text-decoration: none;
@@ -29,15 +33,18 @@
     margin-right: 1%;
     display: inline;
 }
+
 .main-nav__nav-item_current {
     color: #E3B873;
 }
+
 .header__tel {
     color: #E3B873;
     margin-left: auto;
     margin-right: 2%;
 }
-.header__request-call-button{
+
+.header__request-call-button {
     width: 160px;
     height: 40px;
     margin-right: 5%;
