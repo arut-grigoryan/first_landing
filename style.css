@@ -210,19 +210,10 @@ body {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.completed-projects__item-nav-hr {
-    visibility: hidden;
-    margin-bottom: 0;
-    margin-top: 7px;
-    border-color: #E3B873;
-}
-
 .completed-projects__item-nav-a_current {
     color: #E3B873;
-}
-
-.completed-projects__item-nav-hr_current {
-    visibility: visible;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 7px;
 }
 
 .completed-projects__image {
@@ -786,6 +777,98 @@ body {
     line-height: 26px;
     margin: 0;
     max-width: 230px;
+}
+
+.fantasies {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 864px;
+    padding-bottom: 110px;
+}
+
+.fantasies__background {
+    height: 100%;
+    background-image: url(./images/fantasies_background.jpg);
+}
+
+.fantasies__dark-background {
+    height: 100%;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.fantasies__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fantasies__list {
+    height: 60%;
+    margin-left: 7%;
+    padding-top: 140px;
+    margin-right: 5%;
+}
+
+.fantasies__h2 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 37px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    max-width: 300px;
+    margin: 0;
+    margin-bottom: 47px;
+}
+
+.fantasies__nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-width: 180px;
+}
+
+.fantasies__a {
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 38px;
+}
+
+.fantasies__a_current {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.fantasies__columns-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.fantasies__column-photo {
+    min-width: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.fantasies__photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fantasies__columns-photo>.fantasies__column-photo:nth-child(2) {
+    margin-top: -150px;
 }
 
 footer>.header {
