@@ -124,18 +124,23 @@
             <p class="online-control__p">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
                 Leave a request below and you will receive a link to the broadcast.</p>
             <form class="online-control__form" action="#">
-                <div class="text-input">
-                    <label class="text-input__description">Name</label>
-                    <input class="text-input__input" type="text" placeholder="What is your name:">
+                <div class="online-control__form-first-line">
+                    <div class="text-input">
+                        <label class="text-input__description">Name</label>
+                        <input class="text-input__input" type="text" placeholder="What is your name:">
+                    </div>
+                    <div class="text-input">
+                        <label class="text-input__description">Phone</label>
+                        <input class="text-input__input" type="text" placeholder="Your phone number:">
+                    </div>
+                    <input class="online-control__form-button" type="button" value="SUBMIT">
                 </div>
-                <div class="text-input">
-                    <label class="text-input__description">Phone</label>
-                    <input class="text-input__input" type="text" placeholder="Your phone number:">
-                </div>
-                <input class="online-control__form-button" type="button" value="SUBMIT">
-                <div class="checkbox-input">
-                    <input type="checkbox" checked>
-                    <label>I agree to the processing of personal data</label>
+                <div class="online-control__form-second-line">
+                    <label class="checkbox-input">
+                        <input class="checkbox-input__input" type="checkbox">
+                        <span class="checkbox-input__new-check"></span>
+                        <span class="checkbox-input__text">I agree to the processing of personal data</span>
+                    </label>
                 </div>
             </form>
         </section>

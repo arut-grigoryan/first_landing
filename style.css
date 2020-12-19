@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    min-width: 400px;
+    min-width: 480px;
 }
 
 .header {
@@ -285,7 +285,7 @@ body {
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
-    padding-bottom: 145px;
+    padding-bottom: 105px;
 }
 
 .online-control__header-and-logo {
@@ -389,6 +389,7 @@ body {
     max-width: 55px;
     width: 10%;
     border-color: #E3B873;
+    border-top: 0;
     margin: 0;
     margin-bottom: 35px;
     height: 0;
@@ -404,10 +405,19 @@ body {
 }
 
 .online-control__form {
+    width: 100%;
+}
+
+.online-control__form-first-line {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.online-control__form-first-line>* {
+    margin: 0 4%;
+    margin-bottom: 40px;
 }
 
 .text-input {
@@ -415,9 +425,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    max-width: 230px;
+    max-width: 175px;
     width: 30%;
-    margin: 0 3%;
 }
 
 .text-input__description {
@@ -448,8 +457,50 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 13px;
     line-height: 27px;
+    border-radius: 2px;
 }
 
-.online-control__form>.checkbox-input {
-    margin-top: 40px;
+.online-control__form-second-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-input {
+    cursor: pointer;
+}
+
+.checkbox-input__input {
+    display: none;
+}
+
+.checkbox-input__new-check {
+    color: #FFFFFF;
+    background-color: #E3B873;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-input__new-check::before {
+    content: "\2714";
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox-input__text {
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 3px;
+}
+
+.checkbox-input__input:checked+.checkbox-input__new-check::before {
+    /* ? */
+    opacity: 1;
+}
+
+.online-control__form .checkbox-input {
+    margin-bottom: 40px;
 }
