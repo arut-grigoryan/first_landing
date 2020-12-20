@@ -874,3 +874,139 @@ body {
 footer>.header {
     height: 133px;
 }
+
+.our-clients {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-bottom: 90px;
+}
+
+.our-clients .header-and-logo__img {
+    content: url(./images/hands.svg);
+}
+
+.our-clients__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-clients__text {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.our-clients__cells {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.our-clients__cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 30%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    min-width: 380px;
+    margin-bottom: 67px;
+}
+
+.our-clients__review {
+    padding-bottom: 36px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 14px;
+}
+
+.our-clients__review-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.our-clients__review-header-img {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.our-clients__cells>.our-clients__cell:nth-child(1) .our-clients__review-header-img {
+    content: url(./images/client1.jpg);
+}
+
+.our-clients__cells>.our-clients__cell:nth-child(2) .our-clients__review-header-img {
+    content: url(./images/client2.jpg);
+}
+
+.our-clients__cells>.our-clients__cell:nth-child(3) .our-clients__review-header-img {
+    content: url(./images/client3.jpg);
+}
+
+.our-clients__review-header-h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    font-weight: normal;
+    min-width: 0;
+}
+
+.our-clients__review-text {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+}
+
+.our-clients__review-conditions-container {
+    width: 80%;
+    height: 54px;
+}
+
+.our-clients__review-conditions {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E3B873;
+    font-family: 'Yeseva One', cursive;
+    color: #FFFFFF;
+    position: relative;
+    top: 50%;
+}
+
+.our-clients__review-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.our-clients__review-condition>* {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.our-clients__review-condition:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+}
+
+.our-clients__review-condition:nth-child(1)>img {
+    content: url(./images/square.svg);
+}
+
+.our-clients__review-condition:nth-child(2)>img {
+    content: url(./images/calendar.svg);
+}
